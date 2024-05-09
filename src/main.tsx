@@ -10,7 +10,7 @@ import ErrorFallback from "./ErrorFallback.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="travos-react-app">
+    <BrowserRouter basename="travos">
       <Provider store={store}>
         <ErrorBoundary FallbackComponent={ErrorFallback}>
           <App />
